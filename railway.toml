@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "cd back_end && mvn clean install -DskipTests"
+
+[deploy]
+startCommand = "cd back_end && java -Dserver.port=$PORT -jar target/*.jar"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
