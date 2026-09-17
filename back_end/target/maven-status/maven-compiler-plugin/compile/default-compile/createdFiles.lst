@@ -1,0 +1,9 @@
+klab_tast\demo\controller\TaskController.class
+klab_tast\demo\model\Task.class
+klab_tast\demo\config\OpenApiConfig.class
+klab_tast\demo\config\CorsConfig$1.class
+klab_tast\demo\config\CorsConfig.class
+klab_tast\demo\DemoApplication.class
+klab_tast\demo\service\TaskService.class
+klab_tast\demo\repository\TaskRepository.class
+klab_tast\demo\model\User.class

@@ -1,0 +1,161 @@
+================================================================================
+        KLAB TASK MANAGEMENT SYSTEM - QUICK START GUIDE
+================================================================================
+
+📋 WHAT YOU HAVE:
+   ✅ Complete Spring Boot Backend (Java)
+   ✅ Beautiful React Frontend
+   ✅ PostgreSQL Database Integration
+   ✅ Full CRUD Operations
+   ✅ Responsive Design
+   ✅ Comprehensive Documentation
+
+================================================================================
+🚀 SETUP IN 3 STEPS (5 MINUTES)
+================================================================================
+
+STEP 1: CREATE DATABASE (1 minute)
+-----------------------------------
+Option A - Use the script:
+   > create-database.bat
+
+Option B - Manual:
+   > psql -U postgres
+   postgres=# CREATE DATABASE "klab-task-management";
+   postgres=# \q
+
+✅ Database created: klab-task-management
+
+
+STEP 2: START BACKEND (1 minute)
+---------------------------------
+Option A - Use the script:
+   > start-backend.bat
+
+Option B - Manual:
+   > cd back_end
+   > gradlew.bat bootRun
+
+✅ Backend running: http://localhost:8080
+
+
+STEP 3: START FRONTEND (1 minute)
+----------------------------------
+Option A - Use the script:
+   > start-frontend.bat
+
+Option B - Manual:
+   > cd front_end
+   > npm run dev
+
+✅ Frontend running: http://localhost:5173
+
+================================================================================
+✅ VERIFY IT WORKS
+================================================================================
+
+1. Open browser: http://localhost:5173
+2. You should see: "📝 Task Management System"
+3. Click "➕ New Task"
+4. Create your first task
+5. See it appear in the grid
+6. Try editing, toggling status, filtering, and deleting
+
+================================================================================
+📚 DOCUMENTATION FILES
+================================================================================
+
+README.md              - Main project documentation
+setup-guide.md         - Detailed setup instructions
+TESTING.md             - Complete testing guide
+ARCHITECTURE.md        - System architecture
+SUBMISSION.md          - Submission checklist
+PROJECT-SUMMARY.md     - Project overview
+
+back_end/README.md     - Backend documentation
+front_end/README.md    - Frontend documentation
+
+================================================================================
+🔧 TROUBLESHOOTING
+================================================================================
+
+❌ "Cannot connect to database"
+   → Check if PostgreSQL is running
+   → Verify password in: back_end/src/main/resources/application.properties
+
+❌ "Port 8080 already in use"
+   → Close other programs using port 8080
+   → Or change port in application.properties
+
+❌ "npm command not found"
+   → Install Node.js from: https://nodejs.org
+
+❌ "gradlew command not found"
+   → Use: gradlew.bat (with .bat extension on Windows)
+
+❌ Frontend shows "Error fetching tasks"
+   → Make sure backend is running on port 8080
+   → Check browser console for errors
+
+================================================================================
+🎯 WHAT TO TEST
+================================================================================
+
+✓ Create a task
+✓ View all tasks
+✓ Edit a task
+✓ Delete a task
+✓ Mark task as completed
+✓ Mark task as pending
+✓ Filter by status (All/Pending/Completed)
+✓ Try on mobile (F12 → Device toolbar)
+
+================================================================================
+📤 READY TO SUBMIT?
+================================================================================
+
+Check these:
+   [ ] Backend runs without errors
+   [ ] Frontend runs without errors
+   [ ] All CRUD operations work
+   [ ] Responsive design works
+   [ ] README files are complete
+   [ ] Code is pushed to GitHub
+
+Submission URL: [Use the link provided by kLab]
+Deadline: Friday, 18 September 2026 at 8:30 AM
+
+================================================================================
+🎉 YOU'RE ALL SET!
+================================================================================
+
+Your Task Management System is ready!
+
+Technologies:
+   • React 19 (Frontend)
+   • Spring Boot 4.1.1 (Backend)
+   • PostgreSQL (Database)
+
+Features:
+   • Complete CRUD operations
+   • Beautiful, responsive UI
+   • Filter by status
+   • Professional code quality
+   • Comprehensive documentation
+
+================================================================================
+📞 NEED HELP?
+================================================================================
+
+1. Check: TESTING.md for detailed testing guide
+2. Check: setup-guide.md for detailed setup
+3. Check: ARCHITECTURE.md for technical details
+4. Check: Troubleshooting section in README.md
+
+================================================================================
+
+Built with ❤️ for kLab Tech Upskill Program
+
+Good luck! 🚀
+
+================================================================================
